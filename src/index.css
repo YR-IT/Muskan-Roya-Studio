@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: 'Playfair Display', Georgia, serif;
+  --font-sans: 'Plus Jakarta Sans', 'Inter', system-ui, -apple-system, sans-serif;
+
+  --color-canvas: #FAF8F5;
+  --color-canvas-pure: #FFFFFF;
+  --color-canvas-subtle: #F4EFF;
+
+  --color-obsidian: #1A1918;
+  --color-charcoal: #2D2B2A;
+  --color-stone: #575450;
+  --color-muted: #8C8780;
+
+  --color-champagne: #C5A059;
+  --color-champagne-dark: #A38036;
+  --color-champagne-light: #EFE8D8;
+
+  --color-border-light: #E7E3DC;
+  --color-border-subtle: #F0ECE4;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    width: 100%;
+    overflow-x: clip;
+  }
+  body {
+    font-family: var(--font-sans);
+    background-color: var(--color-canvas);
+    color: var(--color-obsidian);
+    overflow-x: clip;
+    width: 100%;
+  }
+  #root {
+    width: 100%;
+    overflow-x: clip;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-serif);
+    letter-spacing: -0.01em;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #FAF8F5;
+}
+::-webkit-scrollbar-thumb {
+  background: #D8D2C7;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #C5A059;
+}
+

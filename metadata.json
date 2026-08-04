@@ -1,0 +1,6 @@
+{
+  "name": "Shadi Chronicles",
+  "description": "Premium Luxury Wedding Photography & Cinematic Films Studio in Delhi, India",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
