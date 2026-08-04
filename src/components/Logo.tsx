@@ -1,5 +1,5 @@
 import React from 'react';
-import logoImg from '../assets/photos/Gemini_Generated_Image_xsj7n7xsj7n7xsj7.png';
+import logoImg from '../assets/photos/Logo.jpg.jpeg';
 
 interface LogoProps {
   className?: string;

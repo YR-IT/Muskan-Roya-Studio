@@ -3,7 +3,7 @@ import { ArrowRight, MessageCircle } from 'lucide-react';
 import { BUSINESS_INFO } from '../data/photographyData';
 import { motion } from 'motion/react';
 import { TypewriterText } from './MotionHelpers';
-import heroVideo from '../assets/video/hero-reel.mp4';
+
 
 // Animated counter that counts up from 0 to target when it enters view
 function CountUp({ to, suffix = '', duration = 1800 }: { to: number; suffix?: string; duration?: number }) {
@@ -77,7 +77,7 @@ export const Hero: React.FC<HeroProps> = ({ onNavigate, onOpenBooking }) => {
             >
               <video
                 className="w-full h-full object-cover object-center scale-[1.02]"
-                src={heroVideo}
+                src="https://res.cloudinary.com/xx77fplo/video/upload/v1785866825/hero-reel_zuh4g5.mp4"
                 autoPlay
                 loop
                 muted
@@ -109,17 +109,19 @@ export const Hero: React.FC<HeroProps> = ({ onNavigate, onOpenBooking }) => {
               </p>
             </div>
 
-            <div className="grid grid-cols-3 gap-3">
+            <div className="grid grid-cols-3 gap-2 sm:gap-3">
               {[
                 { to: 500, suffix: '+', label: 'Weddings Captured' },
                 { to: 8, suffix: '+', label: 'Years of Experience' },
                 { to: 100, suffix: '%', label: 'Client Satisfaction' }
               ].map((item) => (
-                <div key={item.label} className="rounded-2xl border border-[#E7E3DC] bg-white/70 backdrop-blur-sm p-4 text-center">
-                  <div className="text-2xl sm:text-3xl font-serif text-[#1A1918] leading-none">
+                <div key={item.label} className="rounded-2xl border border-[#E7E3DC] bg-white/70 backdrop-blur-sm p-2 sm:p-4 text-center flex flex-col justify-center min-h-[90px] sm:min-h-0">
+                  <div className="text-xl sm:text-3xl font-serif text-[#1A1918] leading-none">
                     <CountUp to={item.to} suffix={item.suffix} />
                   </div>
-                  <div className="mt-2 text-[10px] uppercase tracking-[0.22em] text-stone-500">{item.label}</div>
+                  <div className="mt-1.5 text-[8px] sm:text-[10px] leading-tight uppercase tracking-[0.05em] sm:tracking-[0.22em] text-stone-500 font-medium">
+                    {item.label}
+                  </div>
                 </div>
               ))}
             </div>
