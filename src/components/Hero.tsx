@@ -77,7 +77,7 @@ export const Hero: React.FC<HeroProps> = ({ onNavigate, onOpenBooking }) => {
             >
               <video
                 className="w-full h-full object-cover object-center scale-[1.02]"
-                src="https://res.cloudinary.com/xx77fplo/video/upload/v1785866825/hero-reel_zuh4g5.mp4"
+                src="https://res.cloudinary.com/xx77fplo/video/upload/v1786002421/WhatsApp_Video_2026-08-06_at_09.39.48_twus4m.mp4"
                 autoPlay
                 loop
                 muted

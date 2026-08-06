@@ -35,7 +35,7 @@ export const BUSINESS_INFO = {
   email: 'muskanroyalphotostudio@gmail.com',
   instagramUrl: 'https://www.instagram.com/muskan_royal_photo_studio',
   instagramHandle: '@muskan_royal_photo_studio',
-  googleSitesUrl: 'https://maps.google.com/?q=Nandgaon+Bhiwani+Haryana',
+  googleSitesUrl: 'https://maps.app.goo.gl/SDi21C5BaMFRkd4s8',
   youtubeUrl: 'https://www.youtube.com/@Muskanroyalstudio',
   facebookUrl: 'https://facebook.com',
   experienceYears: '8+',

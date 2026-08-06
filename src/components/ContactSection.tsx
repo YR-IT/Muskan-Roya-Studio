@@ -359,7 +359,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ initialService }
                 </div>
 
                 <a
-                  href="https://maps.google.com/?q=Nandgaon+Bhiwani+Haryana"
+                  href={BUSINESS_INFO.googleSitesUrl}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="border border-[#1A1918] text-[#1A1918] hover:bg-[#1A1918] hover:text-white p-2.5 transition-all"
@@ -372,7 +372,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ initialService }
               <div className="aspect-square w-full border border-[#E7E3DC] overflow-hidden">
                 <iframe
                   title="Studio Location"
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d111874.52495392233!2d76.0828551465225!3d28.78912239634629!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391264c8d50adbf3%3A0xb69666bc9ee6ce50!2sBhiwani%2C%20Haryana!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
+                  src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3491.85!2d76.110897!3d28.677356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjjCsDQwJzM4LjUiTiA3NsKwMDYnNDEuNiJF!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}
