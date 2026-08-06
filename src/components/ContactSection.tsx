@@ -111,7 +111,14 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ initialService }
             <div className="bg-white p-8 border border-[#E7E3DC] hover:border-[#C5A059] transition-all rounded-[1.5rem] shadow-sm">
             <MapPin className="w-5 h-5 text-[#C5A059] mb-4" />
             <h3 className="font-serif font-medium text-lg text-[#1A1918] mb-1">Our Address</h3>
-            <p className="text-xs text-stone-500 font-light mb-2">{BUSINESS_INFO.fullAddress}</p>
+            <a
+              href={BUSINESS_INFO.googleSitesUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-xs text-stone-500 font-light mb-2 hover:text-[#C5A059] transition-colors block"
+            >
+              {BUSINESS_INFO.fullAddress}
+            </a>
             <span className="text-[10px] font-mono text-[#C5A059] uppercase">Muskan Royal Photo Studio</span>
             </div>
           </StaggerItem>
@@ -355,7 +362,14 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ initialService }
               <div className="flex items-center justify-between mb-6">
                 <div>
                   <h3 className="font-serif font-medium text-xl text-[#1A1918]">Studio Address</h3>
-                  <p className="text-xs text-stone-500 font-light mt-1">{BUSINESS_INFO.fullAddress}</p>
+                  <a
+                    href={BUSINESS_INFO.googleSitesUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-xs text-stone-500 font-light mt-1 hover:text-[#C5A059] transition-colors block"
+                  >
+                    {BUSINESS_INFO.fullAddress}
+                  </a>
                 </div>
 
                 <a

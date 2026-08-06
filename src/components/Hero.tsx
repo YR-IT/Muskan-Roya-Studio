@@ -154,7 +154,14 @@ export const Hero: React.FC<HeroProps> = ({ onNavigate, onOpenBooking }) => {
                 <span>Drone Shots</span>
               </div>
               <div className="mt-4 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 text-sm text-stone-600">
-                <span>{BUSINESS_INFO.fullAddress}</span>
+                <a
+                  href={BUSINESS_INFO.googleSitesUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-[#C5A059] transition-colors"
+                >
+                  {BUSINESS_INFO.fullAddress}
+                </a>
                 <a
                   href={`https://wa.me/${BUSINESS_INFO.whatsappNumber}`}
                   target="_blank"

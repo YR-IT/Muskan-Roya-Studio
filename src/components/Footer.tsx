@@ -93,7 +93,14 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate, onOpenBooking }) => 
             <div className="space-y-3 text-xs text-stone-400 font-light">
               <p className="flex items-start gap-2">
                 <MapPin className="w-4 h-4 text-[#C5A059] shrink-0 mt-0.5" />
-                <span>{BUSINESS_INFO.fullAddress}</span>
+                <a
+                  href={BUSINESS_INFO.googleSitesUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-white transition-colors"
+                >
+                  {BUSINESS_INFO.fullAddress}
+                </a>
               </p>
               <p className="flex items-center gap-2">
                 <Phone className="w-4 h-4 text-[#C5A059] shrink-0" />

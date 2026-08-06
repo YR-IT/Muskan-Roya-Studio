@@ -281,9 +281,14 @@ export const ContactPage: React.FC = () => {
               <div>
                 <span className="text-[#C5A059] text-xs font-mono uppercase tracking-widest block mb-1">Our Studio Address</span>
                 <h3 className="text-xl font-serif text-[#1A1918]">Muskan Royal Photo Studio</h3>
-                <p className="text-xs text-stone-600 font-light mt-2 leading-relaxed">
-                  V.P.O. Nandgaon Distt. Bhiwani (Haryana) 127311
-                </p>
+                <a
+                  href={BUSINESS_INFO.googleSitesUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-xs text-stone-600 font-light mt-2 leading-relaxed hover:text-[#C5A059] transition-colors block"
+                >
+                  {BUSINESS_INFO.fullAddress}
+                </a>
               </div>
 
               <div className="space-y-3 pt-2 border-t border-[#E7E3DC] text-xs text-stone-600">
@@ -306,7 +311,7 @@ export const ContactPage: React.FC = () => {
               <div className="aspect-square w-full rounded-lg overflow-hidden border border-[#E7E3DC] mt-4">
                 <iframe
                   title="Studio Map"
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d111874.52495392233!2d76.0828551465225!3d28.78912239634629!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391264c8d50adbf3%3A0xb69666bc9ee6ce50!2sBhiwani%2C%20Haryana!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
+                  src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3491.85!2d76.110897!3d28.677356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjjCsDQwJzM4LjUiTiA3NsKwMDYnNDEuNiJF!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}
