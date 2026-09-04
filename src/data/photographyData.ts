@@ -10,6 +10,16 @@ import photo10 from '../assets/photos/1 (10).jpg.jpeg';
 import photo11 from '../assets/photos/MDS_2673.JPG.jpeg';
 import photo12 from '../assets/photos/1 (15).jpeg';
 import photo13 from '../assets/photos/DS1.png';
+
+// New Photos
+import newPhoto1 from '../assets/photos/new/Photo_1.jpeg';
+import newPhoto2 from '../assets/photos/new/Photo_2.jpeg';
+import newPhoto3 from '../assets/photos/new/Photo_3.jpeg';
+import newPhoto8 from '../assets/photos/new/Photo_8.jpeg';
+import newPhoto10 from '../assets/photos/new/Photo_10.jpeg';
+import newPhoto11 from '../assets/photos/new/Photo_11.jpeg';
+import newPhoto12 from '../assets/photos/new/Photo_12.jpeg';
+
 import { GalleryItem, ServiceItem, CinematicFilm, Testimonial } from '../types';
 
 export const ASSET_IMAGES = {
@@ -163,6 +173,83 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     location: 'Bhiwani, Haryana',
     description: 'A stunning solo capture showcasing the elegant styling and beauty of the bride.',
     featured: false,
+    date: 'March 2026'
+  },
+
+  // Newly Added Photos requested
+  // Wedding Tab
+  {
+    id: 'gal-13',
+    title: 'Royal Wedding Portrait',
+    category: 'Wedding',
+    imageUrl: newPhoto2,
+    location: 'Bhiwani, Haryana',
+    description: 'Capturing timeless love and royal traditions during the wedding ceremony.',
+    featured: true,
+    date: 'March 2026'
+  },
+  {
+    id: 'gal-14',
+    title: 'Traditional Wedding Ceremony',
+    category: 'Wedding',
+    imageUrl: newPhoto3,
+    location: 'Nandgaon, Haryana',
+    description: 'An exquisite wedding moment highlighting royal heritage and elegance.',
+    featured: true,
+    date: 'March 2026'
+  },
+
+  // Pre Wedding Tab
+  {
+    id: 'gal-15',
+    title: 'Golden Pre-Wedding Moments',
+    category: 'Pre-Wedding',
+    imageUrl: newPhoto1,
+    location: 'Bhiwani, Haryana',
+    description: 'A romantic pre-wedding capture filled with warmth and beautiful emotions.',
+    featured: true,
+    date: 'March 2026'
+  },
+  {
+    id: 'gal-16',
+    title: 'Scenic Pre-Wedding Romance',
+    category: 'Pre-Wedding',
+    imageUrl: newPhoto11,
+    location: 'Bhiwani, Haryana',
+    description: 'Charming candid pre-wedding moments amidst picturesque views.',
+    featured: true,
+    date: 'March 2026'
+  },
+
+  // Haldi Tab
+  {
+    id: 'gal-17',
+    title: 'Vibrant Haldi Festivities',
+    category: 'Haldi & Mehendi',
+    imageUrl: newPhoto8,
+    location: 'Nandgaon, Haryana',
+    description: 'Bright and joyful yellow turmeric celebrations with family and friends.',
+    featured: true,
+    date: 'March 2026'
+  },
+  {
+    id: 'gal-18',
+    title: 'Golden Haldi Rituals',
+    category: 'Haldi & Mehendi',
+    imageUrl: newPhoto10,
+    location: 'Bhiwani, Haryana',
+    description: 'Pure smiles and festive energetic vibes captured during the Haldi ceremony.',
+    featured: true,
+    date: 'March 2026'
+  },
+  {
+    id: 'gal-19',
+    title: 'Joyful Haldi Celebration',
+    category: 'Haldi & Mehendi',
+    imageUrl: newPhoto12,
+    location: 'Nandgaon, Haryana',
+    description: 'Memorable candid moments from the vibrant Haldi celebration.',
+    featured: true,
     date: 'March 2026'
   }
 ];
